@@ -9,4 +9,7 @@ Template.hammerDiv.events({
   'hold #hammerDiv': function() {
     alert("Hold!");
   },
+  'tap #btn': function(){
+    alert("Yeah!");
+  }
 });
